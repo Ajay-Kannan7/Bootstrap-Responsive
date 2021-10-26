@@ -1,0 +1,234 @@
+@font-face{
+    font-family:poppins;
+    src:url(../Hielo-bs-font/Poppins-Regular.otf);
+}
+body{
+    padding:0;
+}
+/*Carousel division designing starts*/
+.cont{
+    width:100%;
+    height:30%;
+}
+.cont nav{
+    background:none;
+    border:none;
+    z-index:20;
+}
+.cont .navbar{
+    width:100%;
+}
+.cont nav .navbar-header{
+    width:100%;
+    font-family:poppins;
+    color:white;
+}
+.cont nav .navbar-header .logo{
+    float:left;
+    position:relative;
+    bottom:10px;
+    color:white;
+}
+.cont nav .navbar-header .dropdown-toggle{
+    float:right;
+    display:block;
+    position:relative;
+    top:15px;
+    right:10px;
+    cursor:pointer;
+}
+.cont .carousel{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    position:absolute;
+    top:0;
+}
+.cont .carousel .item{
+    width:100%;
+    height:100%;
+    background-image:url(../Hielo-bs-img/slide01.jpg);
+    background-attachment:fixed;
+}
+.cont .carou .carou2{
+    width:100%;
+    background-image:url(../Hielo-bs-img/slide02.jpg);
+    background-size:cover;
+}
+.cont .carou .carou3{
+    width:100%;
+    background-image:url(../Hielo-bs-img/slide03.jpg);
+    background-size:cover;
+}
+.cont .carou .carou4{
+    width:100%;
+    background-image:url(../Hielo-bs-img/slide04.jpg);
+    background-size:cover;
+}
+.cont .carou .carou5{
+    width:100%;
+    background-image:url(../Hielo-bs-img/slide05.jpg);
+    background-size:cover;
+}
+.cont .banner{
+    width:100%;
+    position:relative;
+    color:#fff;
+    top:85%;
+    text-align:center;
+    font-family:poppins;
+}
+.cont .banner p{
+    font-size:15px;
+    letter-spacing:5px;
+}
+.cont .banner hr{
+    width:30%;
+}
+.cont .banner h1{
+    font-size:80px;
+    font-weight:lighter;
+}
+/*Carousel division designing ends*/
+/*Cards division designing starts*/
+#cont-2{
+    width:100%;
+    position:relative;
+    top:70%;
+    color:grey;
+    font-family:poppins;
+    background-color:rgb(235, 228, 228);
+    padding-top:20px;
+    padding-bottom:50px;
+}
+#cont-2 .row .cards{
+    width:40%;
+    text-align:center;
+    margin-right:20px;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:15px;
+    background-color:white;
+}
+#cont-2 .row .left{
+    margin-left:115px;
+}
+#cont-2 .row .cards h3{
+    color:black;
+}
+#cont-2 .row .cards img{
+    width:100%;
+    margin-bottom:13px;
+}
+#cont-2 .row .cards hr{
+    width:50%;
+    border:0.1px solid gray;
+}
+/*Media query for Cards division starts*/
+@media only screen and (max-width:1200px){
+    #cont-2 .row .cards{
+        width:100%;
+        margin-right:0;
+    }
+    #cont-2 .row .left{
+        margin-left:0;
+        margin-bottom:15px;
+    }
+}
+/*Media query for Cards division ends*/
+/*Cards Division designing ends*/
+/*Theme division designing starts*/
+#cont-3{
+    width:100%;
+    color:white;
+    position:relative;
+    top:70%;
+    text-align:center;
+    font-family:poppins;
+    padding:20px 0px;
+    background-image:url(../Hielo-bs-img/slide03.jpg);
+    background-attachment:fixed;
+}
+#cont-3 p{
+    width:60%;
+    margin:0 auto;
+    letter-spacing:7px;
+}
+#cont-3 hr{
+    width:45%;
+}
+#cont-3 h3{
+    width:50%;
+    margin:0 auto;
+    font-size:40px;
+    font-weight:800;
+}
+/*Theme division designing ends*/
+/*Photos division desgning starts*/
+#cont-4{
+    width:100%;
+    position:relative;
+    color:black;
+    top:70%;
+    font-family:poppins;
+    padding-top:20px;
+    padding-bottom:100px;
+    text-align:center;
+    background-color:rgb(226, 221, 221);
+}
+#cont-4 p{
+    width:60%;
+    margin:0 auto;
+    font-size:15px;
+    letter-spacing:7px;
+}
+#cont-4 hr{
+    width:45%;
+    border:0.3px solid black;
+}
+#cont-4 h3{
+    font-size:40px;
+    font-weight:800;
+}
+#cont-4 .row{
+    margin-top:40px;
+}
+#cont-4 .row .images{
+    width:49%;
+    margin-left:10px;
+}
+#cont-4 .row .images img{
+    width:100%;
+    border:7px solid #fff;
+}
+/*Media query for photos division starts*/
+@media only screen and (max-width:1200px){
+    #cont-4 .row .images{
+        width:100%;
+        margin-left:0;
+    }
+}
+/*Media query for photos division ends*/
+/*Photos division desgning ends*/
+/*Footer division designing starts*/
+#cont-5{
+    width:100%;
+    color:grey;
+    position:relative;
+    top:70%;
+    background-color:black;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+    font-family:poppins;
+}
+#cont-5 a{
+    font-size:35px;
+    text-decoration:none;
+    color:grey;
+    margin:15px;
+}
+#cont-5 a:hover{
+    color:#fff
+}
+/*Footer division designing ends*/
